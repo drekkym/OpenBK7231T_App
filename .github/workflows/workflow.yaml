@@ -1,12 +1,14 @@
 name: Build App
 on:
+  workflow_dispatch:
+    branches: 
+      - '**'
   push:
     branches:
       - '**'
   pull_request:
     branches: 
       - '**'
-  workflow_dispatch:
 
 
 env:
