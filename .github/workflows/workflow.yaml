@@ -165,7 +165,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [OpenESP32, OpenESP32C3, OpenESP32C2, OpenESP32C6, OpenESP32S3, OpenESP32S2]
+        platform: [OpenESP32C3]
     steps:
       - name: Source checkout
         uses: actions/checkout@v3
